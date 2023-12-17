@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" pref="263" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="31" pref="31" max="-2" attributes="0"/>
+                      <Component id="jCBGKindRegular" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                      <Component id="jCBGKindSpecial" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                      <Component id="jCBOKindStandard" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                      <Component id="jCBOKindWinged" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="26" pref="26" max="-2" attributes="0"/>
+                      <Component id="jCBSKindManual" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                      <Component id="jCBSKindAutomatic" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jComboBoxConfirmation" min="-2" pref="101" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="259" pref="259" max="-2" attributes="0"/>
+                      <Component id="jButtonReset" min="-2" pref="103" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jButtonSubmit" min="-2" pref="249" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jComboBoxCurrency" max="32767" attributes="0"/>
+                          <Component id="jComboBoxPayment" pref="66" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jTextHeight" max="32767" attributes="0"/>
+                          <Component id="jLabel13" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="32" pref="32" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel14" max="32767" attributes="0"/>
+                          <Component id="jTextWidth" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="jTextInputColour" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                              <Component id="jComboBoxMaterial" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel3" min="-2" pref="264" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="264" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                              <Component id="jTextPrice" min="-2" pref="130" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel17" min="-2" pref="88" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
+                      <Component id="jTextCurrencyOutput" min="-2" pref="60" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="47" max="-2" attributes="0"/>
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jLabel4" max="32767" attributes="0"/>
+                  <Component id="jTextHeight" pref="24" max="32767" attributes="0"/>
+                  <Component id="jTextWidth" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel5" min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jComboBoxMaterial" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel15" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel6" min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                      <Component id="jTextInputColour" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel7" min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jCBGKindRegular" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCBGKindSpecial" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jCBOKindStandard" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCBOKindWinged" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel9" min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jCBSKindManual" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCBSKindAutomatic" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" pref="24" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel10" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="jComboBoxPayment" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                      <Component id="jComboBoxCurrency" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="jLabel12" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                              <Component id="jComboBoxConfirmation" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="jButtonReset" min="-2" pref="65" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="jButtonSubmit" min="-2" pref="65" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="57" pref="57" max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" pref="44" max="-2" attributes="0"/>
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="135" max="-2" attributes="0"/>
+              <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jTextPrice" min="-2" pref="36" max="-2" attributes="0"/>
+                  <Component id="jLabel17" min="-2" pref="36" max="-2" attributes="0"/>
+                  <Component id="jTextCurrencyOutput" min="-2" pref="36" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Window Shopper v0.1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Please insert below:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Summary:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Size (25$/m^2):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextHeight">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Material:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Colour:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextInputColour">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Glass kind:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCBGKindRegular">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="regular"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCBGKindRegularActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCBGKindSpecial">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="special (+8$ per sqm)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Opening kind:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCBOKindStandard">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="standard"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCBOKindWinged">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="winged (+3$ per sqm)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Shade kind:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCBSKindManual">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manual (+10$ per sqm)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCBSKindAutomatic">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Automatic (+20$ per sqm)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Way of payment: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Currency:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Payment Confirmation: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonSubmit">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Submit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonSubmitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonReset">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonResetActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel17">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Price: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextPrice">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxMaterial">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="plastic"/>
+            <StringItem index="1" value="aluminium"/>
+            <StringItem index="2" value="wood"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxPayment">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="cash"/>
+            <StringItem index="1" value="card"/>
+            <StringItem index="2" value="transfer"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxPaymentActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxCurrency">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="USD"/>
+            <StringItem index="1" value="EUR"/>
+            <StringItem index="2" value="PLN"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxConfirmation">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="invoice"/>
+            <StringItem index="1" value="receipt"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextCurrencyOutput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Height [cm]"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Width [cm]"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextWidth">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+8$ aluminium, +5$ wood"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextOutput">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
